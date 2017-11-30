@@ -1,0 +1,55 @@
+body {
+    background-image: url("../images/background.png");
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    min-height: 100%;
+    min-width: 100%; 
+    width: 100%;
+    height: auto; 
+    position:fixed; 
+    top: 0;
+    left: 0;
+    
+}
+
+
+.logo {
+    vertical-align: middle;
+    height: 300px;
+    width: 350px;
+    position: absolute; 
+    left: 500px;
+    top: 200px;
+    text-align: center;
+    
+    
+}
+.menu {
+    background-color: #aa7939;
+    height:30px;
+    width:100%;
+    margin-top: 40px;
+    
+}
+.nav{
+    display:inline;
+    
+    
+    
+    
+}
+ul li{
+    list-style: none;
+    display:inline;
+    float:right;
+    margin-right:50px;
+    margin-top: 5px;
+    font-family:cursive;
+    
+}
